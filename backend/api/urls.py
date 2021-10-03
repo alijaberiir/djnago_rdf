@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path
 from .views import Articlelist, ArticleDetail, Userlist, UserDetail
 urlpatterns = [
 	path("", Articlelist.as_view(), name='list'),
